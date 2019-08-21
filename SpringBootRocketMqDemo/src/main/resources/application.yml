@@ -1,0 +1,11 @@
+
+apache:
+  rocketmq:
+    #消费组
+    consumer:
+      pushConsumer: XiaourPushConsumer
+
+    #生产组
+    producer:
+      producerGroup: Xiaour
+    namesrvAddr: 127.0.0.1:9876
